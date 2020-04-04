@@ -57,6 +57,7 @@ img {
   margin-bottom: 20px;
 }
 
+
 /* header */
 .body {
   font-family: Arial, Helvetica, sans-serif;
@@ -100,6 +101,11 @@ p {
 .header-menu ul li a:hover {
   color: #fff;
 }
+
+.header-menu ul li a.active-menu{
+  color: #fff;
+}
+
 
 /* introduction */
 
@@ -148,6 +154,52 @@ p {
   font-size: 14px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+/* introduction-internal */
+
+.introduction-internal {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  text-align: center;  
+  padding-top: 30px;
+  background-size: cover;
+  color: #fff;
+}
+
+.introduction-internal h1 {
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+}
+
+.introduction-internal h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 6px auto 10px auto;
+}
+
+.subtitle-internal {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitle-internal:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px 0px;
 }
 
 /* products */
@@ -251,6 +303,7 @@ p {
 
 .quality-list {
   padding-top: 20px;
+  overflow: auto;
 }
 
 .quality-list li {
