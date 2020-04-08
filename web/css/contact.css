@@ -1,0 +1,86 @@
+.contact-introduction{
+  background: url('../img/bg-contato.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.contact {
+  padding: 40px 0px;
+}
+
+.contact-form {
+  padding-right: 60px;
+}
+
+.contact-form label{
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+
+.contact-form input, .contact-form textarea {
+  display: block;
+  width: 100%;
+  border: 4px solid #fec63e;
+  background: transparent;
+  color: #000;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-form .btn {
+  background: none !important;
+  padding: 7px 40px !important;
+}
+
+.contact-info {
+  color: #fff
+}
+
+.contact-info h3 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fec63e;
+}
+
+.contact-info span {
+  display: block;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+  color: #000;
+}
+
+.contact-info span:nth-of-type(even) {
+  margin-bottom: 30px;
+}
+
+.contact-info-email{
+  margin-bottom: 40px;
+}
+
+.contact-info ul li {
+  display: inline-block;
+  padding: 8px;
+  border: 3px solid #fec63e;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.contact-info ul li:hover {
+  border: 3px solid #000;
+}
+
+.contact-info p {
+  margin: 8px 0;
+}
+
+.map {
+  margin-bottom: 60px;
+}
