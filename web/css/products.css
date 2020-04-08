@@ -117,3 +117,45 @@
   background: none !important;
   padding: 7px 40px !important;
 }
+
+.budget-info {
+  color: #fff
+}
+
+.budget-info h3 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fec63e;
+}
+
+.budget-info span {
+  display: block;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+}
+
+.budget-info-email{
+  margin-bottom: 40px;
+}
+
+.budget-info ul {
+  padding-right: 40px;
+}
+
+
+.budget-info ul li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.budget-info ul li:nth-child(odd) {
+  background: #1d1d1d;
+}
+
+.budget-info p {
+  margin: 8px 0;
+}
